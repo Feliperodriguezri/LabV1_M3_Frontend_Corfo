@@ -19,7 +19,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Javascript -->
-        <script defer src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/script.js"></script>
 </head>
 
 <body>
@@ -44,7 +44,8 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary" onclick="mostrarMensaje()">Reserva tu cita</button>
+                <a type="button" class="btn btn-outline-primary" onclick="mostrarMensaje()">Reserva tu
+                    cita</a>
             </div>
         </div>
     </nav>
@@ -74,11 +75,13 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="asunto">Asunto</label>
-                        <textarea id="asunto" class="form-control" id="asunto" rows="1" placeholder="Asunto" required></textarea>
+                        <textarea id="asunto" class="form-control" id="asunto" rows="1" placeholder="Asunto"
+                            required></textarea>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="mensaje">Mensaje</label>
-                        <textarea id="mensaje" class="form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                        <textarea id="mensaje" class="form-control" id="mensaje" rows="3" placeholder="Mensaje"
+                            required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary" onclick="mostrarAlerta()">Enviar</button>
                 </form>
@@ -150,4 +153,5 @@
     </footer>
     <!-- FIN FOOTER -->
 </body>
+
 </html>

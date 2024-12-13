@@ -1,0 +1,76 @@
+{
+    "doctores": [
+        {
+            "id": 1,
+            "nombre": "Dr. Roberto González",
+            "especialidad": "Cardiología",
+            "experiencia": 6,
+            "disponibilidad": true,
+            "contacto": {
+                "telefono": "123456789",
+                "email": "roberto.gonzalez@hospital.com"
+            },
+            "horarios": {
+                "lunes": "09:00 - 15:00",
+                "miércoles": "10:00 - 14:00",
+                "viernes": "12:00 - 18:00"
+            },
+            "imagen": "./assets/img/img_doctor1.jpg",
+            "descripcion": "El Dr. González es cardiólogo con especialización en enfermedades del corazón y sistema circulatorio."
+        },
+        {
+            "id": 2,
+            "nombre": "Dra. Laura Fernández",
+            "especialidad": "Medicina Interna",
+            "experiencia": 15,
+            "disponibilidad": true,
+            "contacto": {
+                "telefono": "987654321",
+                "email": "laura.fernandez@hospital.com"
+            },
+            "horarios": {
+                "martes": "08:00 - 14:00",
+                "jueves": "09:00 - 13:00",
+                "viernes": "12:00 - 16:00"
+            },
+            "imagen": "./assets/img/img_doctor2.jpg",
+            "descripcion": "La Dra. Fernández es experta en el diagnóstico y tratamiento de enfermedades crónicas y complejas."
+        },
+        {
+            "id": 3,
+            "nombre": "Dra. Carolina Martínez",
+            "especialidad": "Pediatría",
+            "experiencia": 6,
+            "disponibilidad": true,
+            "contacto": {
+                "telefono": "456123789",
+                "email": "carolina.martinez@hospital.com"
+            },
+            "horarios": {
+                "lunes": "10:00 - 14:00",
+                "miércoles": "09:00 - 13:00",
+                "jueves": "12:00 - 16:00"
+            },
+            "imagen": "./assets/img/img_doctor4.jpg",
+            "descripcion": "La Dra. Martínez se especializa en el cuidado integral de niños desde su nacimiento hasta la adolescencia."
+        },
+        {
+            "id": 4,
+            "nombre": "Dr. Juan Pérez",
+            "especialidad": "Traumatología y Ortopedia",
+            "experiencia": 10,
+            "disponibilidad": true,
+            "contacto": {
+                "telefono": "789321654",
+                "email": "juan.perez@hospital.com"
+            },
+            "horarios": {
+                "martes": "08:00 - 14:00",
+                "jueves": "09:00 - 13:00",
+                "viernes": "12:00 - 16:00"
+            },
+            "imagen": "./assets/img/img_doctor3.jpg",
+            "descripcion": "El Dr. Pérez es experto en el diagnóstico y tratamiento de lesiones musculoesqueléticas."
+        }
+    ]
+}
